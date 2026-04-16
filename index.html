@@ -1,34 +1,243 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Privacy Policy</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Privacy Policy | Offline AI Photo Editor</title>
+<meta name="description" content="Privacy Policy for Offline AI Photo Editor" />
+
 <style>
-body{
-font-family:Arial;
-max-width:800px;
-margin:auto;
-padding:30px;
-line-height:1.7;
-background:#ffffff;
-color:#111;
+:root{
+--bg1:#07111f;
+--bg2:#0c1b33;
+--card:#111c2f;
+--text:#ffffff;
+--muted:#b8c4d9;
+--line:rgba(255,255,255,0.08);
+--primary:#00d4ff;
+--primary2:#4af6c3;
+--shadow:0 20px 60px rgba(0,0,0,.45);
 }
-h1{color:#00aaff;}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Inter,Segoe UI,Arial,sans-serif;
+background:
+radial-gradient(circle at top right,#12345f 0%,transparent 30%),
+radial-gradient(circle at bottom left,#0c2847 0%,transparent 35%),
+linear-gradient(135deg,var(--bg1),var(--bg2));
+color:var(--text);
+line-height:1.75;
+padding:40px 18px;
+}
+
+.container{
+max-width:950px;
+margin:auto;
+}
+
+.hero{
+background:linear-gradient(135deg,rgba(0,212,255,.12),rgba(74,246,195,.06));
+border:1px solid var(--line);
+border-radius:28px;
+padding:40px 28px;
+box-shadow:var(--shadow);
+backdrop-filter:blur(8px);
+margin-bottom:24px;
+}
+
+.badge{
+display:inline-block;
+padding:8px 14px;
+border-radius:999px;
+font-size:13px;
+font-weight:700;
+letter-spacing:.4px;
+background:rgba(0,212,255,.14);
+color:#7fe9ff;
+margin-bottom:18px;
+}
+
+h1{
+font-size:clamp(32px,6vw,54px);
+line-height:1.1;
+margin-bottom:14px;
+font-weight:800;
+}
+
+.subtitle{
+font-size:18px;
+color:var(--muted);
+max-width:720px;
+}
+
+.card{
+margin-top:22px;
+background:rgba(255,255,255,.03);
+border:1px solid var(--line);
+border-radius:24px;
+padding:28px;
+box-shadow:var(--shadow);
+}
+
+.section{
+padding:18px 0;
+border-bottom:1px solid var(--line);
+}
+
+.section:last-child{
+border-bottom:none;
+padding-bottom:0;
+}
+
+h2{
+font-size:22px;
+margin-bottom:10px;
+font-weight:700;
+color:#ffffff;
+}
+
+p{
+color:var(--muted);
+font-size:16px;
+}
+
+ul{
+padding-left:20px;
+margin-top:10px;
+}
+
+li{
+margin:8px 0;
+color:var(--muted);
+}
+
+.highlight{
+color:#ffffff;
+font-weight:700;
+}
+
+.footer{
+margin-top:22px;
+text-align:center;
+color:#91a4c2;
+font-size:14px;
+}
+
+a{
+color:#7fe9ff;
+text-decoration:none;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+@media (max-width:700px){
+.hero,.card{
+padding:22px;
+border-radius:20px;
+}
+h2{
+font-size:20px;
+}
+p,li{
+font-size:15px;
+}
+}
 </style>
 </head>
+
 <body>
+<div class="container">
 
-<h1>Privacy Policy</h1>
+<div class="hero">
+<div class="badge">OFFICIAL PRIVACY POLICY</div>
+<h1>Offline AI Photo Editor</h1>
+<p class="subtitle">
+Your privacy matters to us. This page explains how Offline AI Photo Editor handles your information and permissions.
+</p>
+</div>
 
-<p><b>Offline AI Photo Editor</b> respects your privacy.</p>
+<div class="card">
 
-<p>We do not collect personal data.</p>
+<div class="section">
+<h2>1. Information We Collect</h2>
+<p>
+<span class="highlight">Offline AI Photo Editor does not collect personal information</span> such as name, email, passwords, contacts, or private photos on our servers.
+</p>
+</div>
 
-<p>This app may request storage permission only to open and save photos.</p>
+<div class="section">
+<h2>2. Device Permissions</h2>
+<p>The app may request limited permissions only to provide core features:</p>
+<ul>
+<li><span class="highlight">Photos / Storage Access</span> – To open, edit, and save images on your device.</li>
+<li><span class="highlight">Camera Access</span> – To capture photos directly inside the app (if enabled).</li>
+</ul>
+</div>
 
-<p>This app works offline.</p>
+<div class="section">
+<h2>3. Offline Usage</h2>
+<p>
+Most editing features are designed to work <span class="highlight">without internet access</span>.
+Your photos remain on your device unless you choose to share them manually.
+</p>
+</div>
 
-<p>Email: your@email.com</p>
+<div class="section">
+<h2>4. Third-Party Services</h2>
+<p>
+The app may use trusted third-party tools such as analytics or advertising providers.
+Those services may process limited non-personal technical data under their own privacy policies.
+</p>
+</div>
 
+<div class="section">
+<h2>5. Data Security</h2>
+<p>
+We take reasonable technical and organizational measures to help protect your information and device interactions.
+</p>
+</div>
+
+<div class="section">
+<h2>6. Children's Privacy</h2>
+<p>
+This app is suitable for general audiences and does not knowingly collect personal data from children.
+</p>
+</div>
+
+<div class="section">
+<h2>7. Policy Updates</h2>
+<p>
+We may update this Privacy Policy when needed. Any future changes will be posted on this page.
+</p>
+</div>
+
+<div class="section">
+<h2>8. Contact Us</h2>
+<p>
+For privacy-related questions, contact us at:<br><br>
+<a href="mailto:your@email.com">your@email.com</a>
+</p>
+</div>
+
+<div class="section">
+<h2>9. Effective Date</h2>
+<p>April 16, 2026</p>
+</div>
+
+</div>
+
+<div class="footer">
+© 2026 Offline AI Photo Editor • All Rights Reserved
+</div>
+
+</div>
 </body>
 </html>
